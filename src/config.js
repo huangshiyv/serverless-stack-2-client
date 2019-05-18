@@ -5,7 +5,7 @@ const prod = {
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://i7waetocu7.execute-api.us-east-1.amazonaws.com/dev/"
+    URL: "https://i7waetocu7.execute-api.us-east-1.amazonaws.com/dev"
   },
   cognito: {
     REGION: "us-east-1",
@@ -23,7 +23,7 @@ const dev = {
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://s2pyxviud5.execute-api.us-east-1.amazonaws.com/prod/"
+    URL: "https://s2pyxviud5.execute-api.us-east-1.amazonaws.com/prod"
   },
   cognito: {
     REGION: "us-east-1",
