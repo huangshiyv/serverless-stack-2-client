@@ -1,11 +1,11 @@
-const dev = {
+const prod = {
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-2-api-dev-attachmentsbucket-ycuiefqprxux"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://i7waetocu7.execute-api.us-east-1.amazonaws.com/dev"
+    URL: "https://i7waetocu7.execute-api.us-east-1.amazonaws.com/dev/"
   },
   cognito: {
     REGION: "us-east-1",
@@ -16,14 +16,14 @@ const dev = {
   STRIPE_KEY: "pk_test_qiPLxh3iWQuwy8W2xvbclgg000wC02OEhB"
 };
 
-const prod = {
+const dev = {
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-2-api-prod-attachmentsbucket-14trnxbkzfrcc"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://s2pyxviud5.execute-api.us-east-1.amazonaws.com/prod"
+    URL: "https://s2pyxviud5.execute-api.us-east-1.amazonaws.com/prod/"
   },
   cognito: {
     REGION: "us-east-1",
